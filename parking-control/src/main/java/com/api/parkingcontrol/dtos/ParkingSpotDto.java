@@ -5,10 +5,10 @@ import javax.validation.constraints.Size;
 
 public class ParkingSpotDto {
 
-    @NotBlank //Campos não podem ser nulos
+    @NotBlank
     private String parkingSpotNumber;
     @NotBlank
-    @Size(max=7)
+    @Size(max = 7)
     private String licensePlateCar;
     @NotBlank
     private String brandCar;
